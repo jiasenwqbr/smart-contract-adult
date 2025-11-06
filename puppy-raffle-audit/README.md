@@ -2,16 +2,17 @@
 <img src="./images/puppy-raffle.svg" width="400" alt="puppy-raffle">
 <br/>
 
-# Puppy Raffle
+# Puppy Raffle 小狗抽奖
 
 This project is to enter a raffle to win a cute dog NFT. The protocol should do the following:
+本项目旨在举办抽奖活动，奖品是一只可爱的小狗 NFT。协议应实现以下功能：
 
-1. Call the `enterRaffle` function with the following parameters:
-   1. `address[] participants`: A list of addresses that enter. You can use this to enter yourself multiple times, or yourself and a group of your friends.
-2. Duplicate addresses are not allowed
-3. Users are allowed to get a refund of their ticket & `value` if they call the `refund` function
-4. Every X seconds, the raffle will be able to draw a winner and be minted a random puppy
-5. The owner of the protocol will set a feeAddress to take a cut of the `value`, and the rest of the funds will be sent to the winner of the puppy.
+1. Call the `enterRaffle` function with the following parameters: 调用 `enterRaffle` 函数，并传入以下参数：
+   1. `address[] participants`: A list of addresses that enter. You can use this to enter yourself  multiple times, or yourself and a group of your friends.参与者地址列表。您可以多次参与，也可以与一群朋友一起参与。
+2. Duplicate addresses are not allowed 不允许重复地址。
+3. Users are allowed to get a refund of their ticket & `value` if they call the `refund` function 户可以通过调用 `refund` 函数获得门票及奖品的退款。
+4. Every X seconds, the raffle will be able to draw a winner and be minted a random puppy 每隔 X 秒，抽奖活动将随机抽取一名中奖者，并生成一只小狗。
+5. The owner of the protocol will set a feeAddress to take a cut of the `value`, and the rest of the funds will be sent to the winner of the puppy. 协议所有者将设置一个 `feeAddress` 来收取一部分奖品费用，剩余的奖品将发送给小狗的中奖者。
 
 - [Puppy Raffle](#puppy-raffle)
 - [Getting Started](#getting-started)
