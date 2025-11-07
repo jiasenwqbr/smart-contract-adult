@@ -16,3 +16,9 @@
 [submodule "sc-exploits-minimized/lib/kontrol-cheatcodes"]
 	path = sc-exploits-minimized/lib/kontrol-cheatcodes
 	url = https://github.com/runtimeverification/kontrol-cheatcodes
+[submodule "t-swap-audit/lib/forge-std"]
+	path = t-swap-audit/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "t-swap-audit/lib/openzeppelin-contracts"]
+	path = t-swap-audit/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
