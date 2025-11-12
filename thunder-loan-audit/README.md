@@ -39,6 +39,10 @@ A flash loan is a loan that exists for exactly 1 transaction. A user can borrow 
 
 Users additionally have to pay a small fee to the protocol depending on how much money they borrow. To calculate the fee, we're using the famous on-chain TSwap price oracle.
 
+闪电贷是一种仅存在于单笔交易中的贷款。用户可以从协议中借入任意金额的资产，但必须在同一笔交易中偿还。如果用户未能按时还款，交易将被撤销，贷款将被取消。
+
+此外，用户还需要根据借款金额向协议支付少量费用。我们使用著名的链上价格预言机 TSwap 来计算费用。
+
 We are planning to upgrade from the current `ThunderLoan` contract to the `ThunderLoanUpgraded` contract. Please include this upgrade in scope of a security review. 
 
 # Getting Started
